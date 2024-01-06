@@ -1,0 +1,133 @@
+* {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  font-kerning:auto;
+  font-family:'Open Sans', 'Source Sans Pro', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  -o-user-select:none;
+  user-select:none;
+  cursor:default;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin:0;
+  /*background:#fc0;*/
+  background:rgb(96, 114, 116);
+}
+h1 {
+  margin:15px 0;
+  line-height:1.2;
+  color:rgb(250, 238, 209);
+  padding:0 15px;
+}
+section {
+  padding:0 15px 0 15px;
+  position:relative;
+}
+section input[type=text] {
+  margin:0 0 15px 0;
+  -webkit-appearance:none;
+  appearance:none;
+  background:rgb(96, 114, 116);
+  color:rgb(0, 0, 0);
+  border:1px solid rgb(250, 238, 209);
+  border-radius:1px;
+  padding:5px;
+  font-size:14pt;
+  font-weight:normal;
+  outline:none;
+  float:left;
+  width:calc(100% - 50px);
+  cursor:pointer;
+  -webkit-user-select:text;
+  -moz-user-select:text;
+  -ms-user-select:text;
+  -o-user-select:text;
+  user-select:text;
+}
+section input[type=button] {
+  margin:0 0 15px 0;
+  -webkit-appearance:none;
+  appearance:none;
+  border:1px solid rgb(250, 238, 209);
+  background:rgb(96, 114, 116);
+  color:rgb(250, 238, 209);
+  border-radius:1px;
+  padding:5px;
+  font-size:19pt;
+  line-height:1;
+  font-weight:bold;
+  outline:none;
+  width:35px;
+  float:right;
+  cursor:pointer;
+}
+#enter input[type=text] {
+  background:rgb(222, 208, 182);
+}
+#enter input[type=button] {
+  background:rgb(250, 238, 209);
+  color:rgb(96, 114, 116);
+  border-color:rgb(250, 238, 209);
+}
+
+#clock {
+    height:120px;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(250, 238, 209);
+}
+
+#alarm-container {
+	text-align:center;
+    font-family: Verdana;
+    font-size: 0.6em;
+    padding: 0.7em;
+    color: rgb(250, 238, 209);
+}
+
+label {
+	display:inline-block;
+}
+
+.timeofday {
+    background-color: #eee;
+    
+}
+
+.bigger {
+    font-weight:bold;
+    font-size: 18px;
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#setButton {
+    float:left;
+    background-color:rrgb(136, 171, 142);
+    margin-top:10px;
+}
+#clearButton {
+    float:right;
+    background-color:rgb(178, 165, 155);
+    margin-top:10px;
+}
+#clock {
+    text-align: center;
+}
+#alarmhrs, #alarmmins, #alarmsecs, #ampm {
+    background: rgb(250, 238, 209);
+}
